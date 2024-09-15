@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="first">
+        <video autoplay loop muted plays-inline class="background-video">
+            <source src="images/video.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <div class="logo">VASTRA</div>
+            <ul>
+                <li><a href="Home.html">HOME<span></span></a></li>
+                <li><a href="Product.html">PRODUCT<span></span></a></li>
+                <li><a href="AboutUs.html">ABOUT US<span></span></a></li>
+                <li><a href="ContactUs.html">CONTACT US<span></span></a></li>
+            </ul>            
+        </nav>
+        <div class="new">
+            <h1>Shop now at 5% OFF!</h1>
+        </div>
+    </div>
+    <div class="product">
+        <h2 class="product-category" style="color:#181111;text-align: center;font-family:monospace;">BEST SELLER</h2>
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">5% OFF</span>    
+                    <img src="images/image2.jpg" alt="" class="product-thumb1" onmousemove="changeImage(1,this)" onmouseout="changeImage(2,this)">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-band">MOCKUP T-SHIRT</h2>
+                    <p class="product-short-description">Very Comfortable AND Cozy.</p>
+                    <span class="price">$203</span><span class="actual-price">$210</span>
+                </div>                                
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">5% OFF</span>
+                    <img src="images/image4.jpg" alt="" class="product-thumb2" onmousemove="changeImage(3,this)" onmouseout="changeImage(4,this)">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-band">S-SHIRT</h2>
+                    <p class="product-short-description">Elegant and Comfortable</p>
+                    <span class="price">$320</span><span class="actual-price">$340</span>
+                </div>                                                
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">5% OFF</span>
+                    <img src="images/image6.jpg" alt="" class="product-thumb3"  onmousemove="changeImage(5,this)" onmouseout="changeImage(6,this)" >
+                </div>
+                <div class="product-info">
+                    <h2 class="product-band">PANT</h2>
+                    <p class="product-short-description">Available in different sizes</p>
+                    <span class="price">$150</span><span class="actual-price">$170</span>
+                </div>                               
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">5% OFF</span>
+                    <img src="images/image8.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(7,this)" onmouseout="changeImage(8,this)">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-band">FLORAL SKIRT</h2>
+                    <p class="product-short-description">Cool and Sexy</p>
+                    <span class="price">$200</span><span class="actual-price">$220</span>
+                </div>                                               
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">5% OFF</span>
+                    <img src="images/image10.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(9,this)" onmouseout="changeImage(10,this)">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-band">JEANS PANT</h2>
+                    <p class="product-short-description">Perfect for Daily Wear</p>
+                    <span class="price">$300</span><span class="actual-price">$320</span>
+                </div>                                                
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">5% OFF</span>
+                    <img src="images/image12.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(11,this)" onmouseout="changeImage(12,this)">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-band">T-SHIRT</h2>
+                    <p class="product-short-description">OVERSIZED AND COMFORTABLE</p>
+                    <span class="price">$100</span><span class="actual-price">$120</span>
+                </div>                                                
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">5% OFF</span>
+                    <img src="images/image14.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(13,this)" onmouseout="changeImage(14,this)">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-band">BLAZER</h2>
+                    <p class="product-short-description">Elegant and Classy</p>
+                    <span class="price">$2010</span><span class="actual-price">$2300</span>
+                </div>                               
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">5% OFF</span>
+                    <img src="images/image16.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(15,this)" onmouseout="changeImage(16,this)">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-band">MEN JEANS</h2>
+                    <p class="product-short-description">Super cozy and Relazing</p>
+                    <span class="price">$123</span><span class="actual-price">$170</span>
+                </div>                               
+            </div>
+        </div>
+        <p class="laptops">EVERYONE'S FAVOURITE SUMMER WEARS</p>
+        <div class="container1">        
+            <div class="products-container1">        
+               <div class="product1" >
+                <img src="images/image15.jpg" alt="" class="product-thumb1" onmousemove="changeImage(16,this)" onmouseout="changeImage(15,this)">
+                  <h3>ACER</h3>
+                  <span class="price">$200000</span><span class="actual-price">$220000</span>
+               </div>         
+               <div class="product1">
+                <img src="images/image13.jpg" alt="" class="product-thumb2" onmousemove="changeImage(14,this)" onmouseout="changeImage(13,this)">
+                  <h3>MACBOOK</h3>
+                  <div class="price">$2.00</div>
+               </div>         
+               <div class="product1" >
+                <img src="images/image12.jpg" alt="" class="product-thumb3"  onmousemove="changeImage(11,this)" onmouseout="changeImage(12,this)" >
+                  <h3>ALIENWARE</h3>
+                  <div class="price">$2.00</div>
+               </div>  
+            </div>
+            <div class="products-container1">       
+               <div class="product1">
+                <img src="images/image9.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(10,this)" onmouseout="changeImage(9,this)">
+                  <h3>DELL</h3>
+                  <div class="price">$2.00</div>
+               </div>         
+               <div class="product1" >
+                <img src="images/image8.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(7,this)" onmouseout="changeImage(8,this)">
+                  <h3>broccoli</h3>
+                  <div class="price">$2.00</div>
+               </div>        
+               <div class="product1">
+                <img src="images/image5.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(6,this)" onmouseout="changeImage(5,this)">
+                  <h3>potatoes</h3>
+                  <div class="price">$2.00</div>
+               </div>         
+            </div>         
+        </div>
+        <p class="laptops">EVERYONE'S FAVOURITE WINTER WEARS</p>
+        <div class="container1">        
+            <div class="products-container1">        
+               <div class="product1" >
+                <img src="images/image1.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(2,this)" onmouseout="changeImage(1,this)">
+                  <h3>PANT</h3>
+                  <span class="price">$200</span><span class="actual-price">$220</span>
+               </div>         
+               <div class="product1">
+                <img src="images/image3.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(4,this)" onmouseout="changeImage(3,this)">
+                  <h3>BLAZER</h3>
+                  <div class="price">$200.00</div>
+               </div>         
+               <div class="product1" >
+                <img src="images/image6.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(5,this)" onmouseout="changeImage(6,this)">
+                  <h3>T-SHIRT</h3>
+                  <div class="price">$200.00</div>
+               </div>  
+            </div>
+            <div class="products-container1">       
+               <div class="product1">
+                <img src="images/image11.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(12,this)" onmouseout="changeImage(11,this)">
+                  <h3>PANT</h3>
+                  <div class="price">$209.00</div>
+               </div>         
+               <div class="product1" >
+                <img src="images/image9.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(10,this)" onmouseout="changeImage(9,this)">
+                  <h3>FLORAL-SKIRT</h3>
+                  <div class="price">$222.00</div>
+               </div>        
+               <div class="product1">
+                <img src="images/image7.jpg" alt="" class="product-thumb4"  onmousemove="changeImage(8,this)" onmouseout="changeImage(7,this)">
+                  <h3>PANT</h3>
+                  <div class="price">$210.00</div>
+               </div>         
+            </div>         
+        </div>
+       <footer>
+           <div class="footer">
+              <p>&copy; 2024 VASTRA</p>
+              <div class="socialmedia">
+                <a href="#"><img src="images/facebook.jpg"  alt="" class="socialmediaImage"></a>
+                <a href="#"><img src="images/instagram.jpg"  alt="" class="socialmediaImage"></a>
+                <a href="#"><img src="images/linked in.jpg"  alt="" class="socialmediaImage"></a>
+                <a href="#"><img src="images/github.jpg"  alt="" class="socialmediaImage"></a>
+
+              </div>
+            
+           <div>
+               <p class="footer_p">
+                 Location<br>
+                 Islington College,Kamalpokhari
+               </p>
+           </div>
+        </div>
+       </footer>    
+    </div>   
+     
+    <script src="new.js"></script>
+
+    
+</body>
+</html>
